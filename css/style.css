@@ -15,6 +15,7 @@
 .buscador {
     align-self: flex-start;
     justify-self: flex-end;
+    display: flex;
 }
 .contenedorimg {
     display: flex;
