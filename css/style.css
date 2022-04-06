@@ -1,0 +1,24 @@
+.headers {
+    display: flex;
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+}
+.logo {
+    width: 150px;
+    border-radius: 200px;
+    align-self: center;
+    justify-self: center;
+}
+.bodyhome {
+    background-color: black;
+}
+.buscador {
+    align-self: flex-start;
+    justify-self: flex-end;
+}
+.contenedorimg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+}
