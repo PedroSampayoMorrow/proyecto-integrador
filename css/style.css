@@ -34,15 +34,16 @@
 }
 .contenedorcanciones {
     display: flex;
+    justify-content: space-between;
 }
 .cancionhija {
-    max-width: 270px;
+    max-width: 230px;
     display: flex;
     flex-direction: column;
-    margin: 10px 10px 10px 10px;
+    justify-content: center;
 }
 .cancionimg {
-    max-width: 250px;
+    max-width: 230px;
 }
 .nombreartista {
     font-size: 30px;
@@ -57,4 +58,5 @@
 .descripcion {
     font-size: 10px;
     margin-top: 5px;
+    text-align: center;
 }
