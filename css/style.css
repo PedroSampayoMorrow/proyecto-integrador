@@ -2,6 +2,7 @@
     display: flex;
     margin-left: 2.5vw;
     margin-right: 2.5vw;
+    justify-content: space-between;
 }
 .logo {
     width: 150px;
@@ -49,14 +50,30 @@
     font-size: 30px;
     align-self: center ;
     margin-bottom: 5px;
+    text-decoration: none;
+    color: lightgray;
 }
 .nombrealbum {
     font-size: 14px;
     align-self: center;
     margin-top: 5px;
+    text-decoration: none;
+    color: lightgray;
 }
 .descripcion {
     font-size: 10px;
     margin-top: 5px;
     text-align: center;
+    text-decoration: none;
+    color: lightgray;
+}
+.paginas {
+    
+    align-self: center;
+    text-decoration: none;
+    justify-content: space-between;
+}
+.paginasindiv {
+    text-decoration: none;
+    color: lightgray;
 }
