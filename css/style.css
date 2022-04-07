@@ -1,8 +1,16 @@
+
 .headers {
+    width: 100vw;
+    background-color: orange;
+    height: 200px;
+   
+}
+.contenedorheaders {
     display: flex;
     margin-left: 2.5vw;
     margin-right: 2.5vw;
     justify-content: space-between;
+    height: 200px;
 }
 .logo {
     width: 150px;
@@ -14,11 +22,13 @@
     background-image: url("../img/fondo2.jpeg");
     color: white;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
 }
 .buscador {
     align-self: flex-start;
     justify-self: flex-end;
     display: flex;
+    margin-top: 2.5vh;
 }
 .contenedorimg {
     display: flex;
@@ -28,6 +38,8 @@
 }
 .tituloseccion {
     width: 95vw;
+    margin-top: 70px;
+    margin-bottom: 20px;
 }
 .mainhome {
     margin-left: 2.5vw;
@@ -36,6 +48,7 @@
 .contenedordiscos {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 40px;
 }
 .cancionhija {
     max-width: 230px;
@@ -44,9 +57,11 @@
     justify-content: center;
     background-color: rgb(84, 175, 175);
     border: solid greenyellow 3px;
+    height: 360px;
+    border-radius: 10px;
 }
 .cancionimg {
-    max-width: 220px;
+    width: 200px;
     height: 200px;
     margin-top: 10px;
     align-self: center;
@@ -56,21 +71,21 @@
     align-self: center ;
     margin-bottom: 5px;
     text-decoration: none;
-    color: lightgray;
+    color: white;
 }
 .nombrealbum {
     font-size: 14px;
     align-self: center;
     margin-top: 5px;
     text-decoration: none;
-    color: lightgray;
+    color: white;
 }
 .descripcion {
     font-size: 10px;
     margin-top: 5px;
     text-align: center;
     text-decoration: none;
-    color: lightgray;
+    color: white;
 }
 .paginas {
     
@@ -80,7 +95,8 @@
 }
 .paginasindiv {
     text-decoration: none;
-    color: lightgray;
+    color: white;
+    margin-left: 8px;
 }
 .albumhija {
     background-color: rgb(84, 175, 175);
@@ -89,8 +105,51 @@
     flex-direction: column;
     justify-content: center;
     border: solid greenyellow 3px;
+    height: 360px;
+    border-radius: 10px;
 }
 .contenedoralbumes {
     display: flex;
     justify-content: space-between;
+}
+
+.artistaimg {
+    max-width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    align-self: center;
+}
+.artistahija {
+    background-color: rgb(84, 175, 175);
+    width: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border: solid greenyellow 3px;
+    height: 360px;
+    border-radius: 10px;
+}
+.nombrebanda {
+    margin-top: 55px;
+    font-size: 30px;
+    align-self: center ;
+    text-decoration: none;
+    color: white;
+}
+.contenedorartistas{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom: 50px;
+}
+a {
+    text-decoration: none;
+}
+.footers {
+    background-color: orange;
+    height: 100px;
+}
+.contenedornombres{
+    display: flex;
+    justify-content: space-evenly;
 }
