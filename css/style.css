@@ -172,3 +172,16 @@ a {
 .mainsearch {
     height: 56vh;
 }
+.contenedorgeneros {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom: 50px;
+}
+.maingeneros {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.titulogeneros {
+    margin-top: 32px;
+}
