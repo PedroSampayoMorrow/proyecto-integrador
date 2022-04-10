@@ -153,3 +153,22 @@ a {
     display: flex;
     justify-content: space-evenly;
 }
+.resultadoscoincide {
+    text-decoration: none;
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+}
+.leyendabusqueda {
+    font-size: 30px;
+    margin-top: 70px;
+    text-align: center;
+    font-weight: bold;
+}
+.titulosearch {
+    margin-top: 50px;
+    text-align: center;
+}
+.mainsearch {
+    height: 56vh;
+}
