@@ -23,6 +23,7 @@
     color: white;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0;
+    background-size: cover;
 }
 .buscador {
     align-self: flex-start;
@@ -119,43 +120,310 @@
     justify-content: space-between;
 }
 
-.artistaimg {
-    max-width: 200px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.headerscanciones {
+    width: 100vw;
+    background-color: rgb(162, 0, 255);
     height: 200px;
-    margin-top: 10px;
-    align-self: center;
+   
 }
-.artistahija {
-    background-color: rgb(84, 175, 175);
-    width: 230px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    border: solid greenyellow 3px;
-    height: 360px;
-    border-radius: 10px;
-}
-.nombrebanda {
-    margin-top: 55px;
-    font-size: 30px;
-    align-self: center ;
-    text-decoration: none;
-    color: white;
-}
-.contenedorartistas{
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    margin-bottom: 50px;
-}
-a {
-    text-decoration: none;
-}
-.footers {
-    background-color: orange;
+.footerscanciones {
+    background-color: rgb(162, 0, 255);
     height: 100px;
 }
-.contenedornombres{
+.bodycanciones {
+    background-image: url("../img/cosmos.jpg");
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+}
+.artistahija2 {
+    max-width: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(207, 43, 31, 40%);
+    border: solid white 3px;
+    border-radius: 50%;
+}
+.artistaimg1 {
+    max-width: 200px;
+    height: 200px;
+    margin: 10px;
+    align-self: center;
+    border-radius: 50%;
+    
+}
+.contenedorartista {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.ordencajas {
+    display: flex;
+    flex-direction: column;
+}
+.artistanomdesc {
     display: flex;
     justify-content: space-evenly;
 }
