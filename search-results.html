@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Results</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/7823139b18.js" crossorigin="anonymous"></script>
+</head>
+<body class="bodyhome">
+    <header class="headers">
+        <div class="contenedorheaders">
+            <div class="paginas">
+                <a href="./canciones.html" class="paginasindiv">Canciones</a>
+                <a href="./albumes.html" class="paginasindiv">Albumes</a>
+                <a href="./artistas.html" class="paginasindiv">Artistas</a>
+            </div>
+                <a href="./index.html" class="logo"><img src="./img/logo.jpg" alt="logo" class="logo"></a>
+            <div class="buscadorheader">
+                <form action="./search-results.html" class="buscador">
+                    <input id="busqueda" type="text" name="buscar" placeholder="Buscar">
+                    <div>
+                        <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </div>
+                </form>
+            </div>
+         </div>
+    </header>
+    <main class="mainsearch">
+        <section>
+            <article>
+                <h3 class="titulosearch">
+                    Termino buscado : "Lorem, ipsum dolor."
+                </h3>
+            </article>
+            <article>
+                <h3 class="titulosearch">
+                    Resultados que coinciden:
+                </h3>
+                <div>
+                    <ul class="resultadoscoincide" type="none">
+                        <a href="./albumes.html">
+                            <li>
+                                Resultado Album
+                            </li>
+                         </a>
+                        <a href="./artistas.html">
+                            <li>
+                                Resultado Artista
+                            </li>
+                        </a>
+                        <a href="./canciones.html">
+                            <li>
+                                Resultado Canciones
+                            </li>
+                        </a>
+                    </ul>
+                </div>
+                <div>
+                    <legend class="leyendabusqueda">
+                        No se encontro ningun resultado coincidente.
+                    </legend>
+                </div>
+            </article>
+        </section>
+    </main>
+    <footer class="footers">
+        <div class="contenedornombres">
+            <h5 class="nombresalumnos">
+                Pedro Sampayo
+            </h5>
+            <h5 class="nombresalumnos">
+                Félix Duhalde
+            </h5>
+            <h5 class="nombresalumnos">
+                Tomas Alvarez Demalde
+            </h5>
+        </div>
+    </footer>
+</body>
+</html>
