@@ -1,8 +1,16 @@
+
 .headers {
+    width: 100vw;
+    background-color: orange;
+    height: 200px;
+   
+}
+.contenedorheaders {
     display: flex;
     margin-left: 2.5vw;
     margin-right: 2.5vw;
     justify-content: space-between;
+    height: 200px;
 }
 .logo {
     width: 150px;
@@ -14,11 +22,14 @@
     background-image: url("../img/fondo2.jpeg");
     color: white;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    background-size: cover;
 }
 .buscador {
     align-self: flex-start;
     justify-self: flex-end;
     display: flex;
+    margin-top: 2.5vh;
 }
 .contenedorimg {
     display: flex;
@@ -28,6 +39,8 @@
 }
 .tituloseccion {
     width: 95vw;
+    margin-top: 70px;
+    margin-bottom: 20px;
 }
 .mainhome {
     margin-left: 2.5vw;
@@ -36,6 +49,7 @@
 .contenedordiscos {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 40px;
 }
 .cancionhija {
     max-width: 230px;
@@ -44,9 +58,11 @@
     justify-content: center;
     background-color: rgb(84, 175, 175);
     border: solid greenyellow 3px;
+    height: 360px;
+    border-radius: 10px;
 }
 .cancionimg {
-    max-width: 220px;
+    width: 200px;
     height: 200px;
     margin-top: 10px;
     align-self: center;
@@ -56,21 +72,21 @@
     align-self: center ;
     margin-bottom: 5px;
     text-decoration: none;
-    color: lightgray;
+    color: white;
 }
 .nombrealbum {
     font-size: 14px;
     align-self: center;
     margin-top: 5px;
     text-decoration: none;
-    color: lightgray;
+    color: white;
 }
 .descripcion {
     font-size: 10px;
     margin-top: 5px;
     text-align: center;
     text-decoration: none;
-    color: lightgray;
+    color: white;
 }
 .paginas {
     
@@ -80,7 +96,8 @@
 }
 .paginasindiv {
     text-decoration: none;
-    color: lightgray;
+    color: white;
+    margin-left: 8px;
 }
 .albumhija {
     background-color: rgb(84, 175, 175);
@@ -89,6 +106,8 @@
     flex-direction: column;
     justify-content: center;
     border: solid greenyellow 3px;
+    height: 360px;
+    border-radius: 10px;
 }
 .contenedoralbumes {
     display: flex;
@@ -268,24 +287,151 @@
 
 
 
-.logomini {
-    width: 70px;
-    border-radius: 200px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.headerscanciones {
+    width: 100vw;
+    background-color: rgb(162, 0, 255);
+    height: 200px;
+   
+}
+.footerscanciones {
+    background-color: rgb(162, 0, 255);
+    height: 100px;
+}
+.bodycanciones {
+    background-image: url("../img/cosmos.jpg");
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+}
+.artistahija2 {
+    max-width: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(207, 43, 31, 40%);
+    border: solid white 3px;
+    border-radius: 50%;
+}
+.artistaimg1 {
+    max-width: 200px;
+    height: 200px;
+    margin: 10px;
     align-self: center;
-    justify-self: center;
+    border-radius: 50%;
+    
 }
-.tituloseccionindiv {
+.contenedorartista {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.ordencajas {
+    display: flex;
+    flex-direction: column;
+}
+.artistanomdesc {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(207, 43, 31, 40%);
+    border: solid white 3px;
+    padding-bottom: 10px;
+    border-radius: 50px;
+    margin-top: 10px;
+}
+
+.tituloseccionmaroonv {
+    width: 95vw;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    text-align: center;
     font-size: 50px;
-
-}
-.paginasindivvol1 {
-    text-decoration: none;
-    color: lightgray;
-    text-align: left;
-    background-position-y: top;
-
-}
-.tituloseccionindiv {
-    font-size: 50px;
-
 }
