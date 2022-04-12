@@ -3,7 +3,18 @@
     width: 100vw;
     background-color: orange;
     height: 200px;
-   
+}
+.footers {
+    background-color: orange;
+    flex-direction: row;
+}
+.contenedornombres{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-around;
+    width: 100vw;
+    
 }
 .contenedorheaders {
     display: flex;
@@ -72,12 +83,23 @@
     margin-top: 10px;
     align-self: center;
 }
+.artistahija {
+    width: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(84, 175, 175);
+    border: solid greenyellow 3px;
+    height: 360px;
+    border-radius: 10px;
+}
+
 .nombreartista {
     font-size: 30px;
     align-self: center ;
     margin-bottom: 5px;
-    text-decoration: none;
     color: white;
+    text-decoration: none;
 }
 .nombrealbum {
     font-size: 14px;
@@ -118,6 +140,7 @@
 .contenedoralbumes {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 50px;
 }
 
 
@@ -380,17 +403,6 @@
 
 
 
-
-.headerscanciones {
-    width: 100vw;
-    background-color: rgb(162, 0, 255);
-    height: 200px;
-   
-}
-.footerscanciones {
-    background-color: rgb(162, 0, 255);
-    height: 100px;
-}
 .bodycanciones {
     background-image: url("../img/cosmos.jpg");
     color: white;
