@@ -541,6 +541,7 @@
 .nombrebandacancion {
     font-size: 30px;
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 .articulocancionhija {
     display: flex;
@@ -553,7 +554,7 @@
     border-radius: 10px;
 }
 .detallecanciondisco {
-    margin-top: 5px;
+    margin-top: 0px;
 }
 .verplaylist {
     text-decoration: none;
