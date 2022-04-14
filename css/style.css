@@ -506,6 +506,21 @@
     font-size: 15px;
     margin-bottom: 50px;
     }
+    /* Resultados Search */
+    .cajasearch {
+        background-color: rgba(0, 0, 0, 0.5);
+        align-self: center;
+        display: flex;
+        flex-direction: column;
+        min-width: 300px;
+        margin-top: 60px;
+        border: 3px green solid;
+    }
+    .mainsearch {
+        display: flex;
+        flex-direction: column;
+        min-height: 606.5px;
+    }
 }
 
 
@@ -804,19 +819,23 @@
     color: white;
     margin-top: 20px;
     text-align: center;
+    margin-right: 20px;
 }
 .leyendabusqueda {
     font-size: 30px;
-    margin-top: 70px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     text-align: center;
     font-weight: bold;
 }
 .titulosearch {
-    margin-top: 50px;
+    margin-top: 20px;
     text-align: center;
 }
 .mainsearch {
-    height: 56vh;
+    height: 67vh;
+    display: flex;
+    flex-direction: column;
 }
 .contenedorgeneros {
     display: flex;
@@ -925,4 +944,17 @@
 .verplaylist {
     text-decoration: none;
     color: rgba(1, 54, 1, 0.63);
+}
+.hiperresultados{
+    text-decoration: none;
+    color: white;
+}
+.cajasearch {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 50vw;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    border: 3px green solid;
 }
