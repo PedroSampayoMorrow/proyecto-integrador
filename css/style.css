@@ -447,6 +447,26 @@
         margin-bottom: 45px;
         height: 63.2vh;
     }
+    /* Detail Track*/
+    .articulocancion {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .articulocancionhija {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 350px;
+        background-color: rgba(55, 201, 152, 0.548);
+        align-items: center;
+        border: 3px solid rgba(255, 0, 0, 0.5);
+        border-radius: 10px;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
 }
 
 
