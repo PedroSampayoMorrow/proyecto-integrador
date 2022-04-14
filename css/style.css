@@ -312,6 +312,17 @@
     height: 170px;
     border: 3px green solid;
 }
+.cajatitulogeneros {
+    background-color: rgba(0, 0, 0, 0.7);
+    border: green 3px solid;
+    width: 300px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.cajatitulogenerospadre{
+    display: flex;
+    justify-content: center;
+}
 
 @media (max-width: 420px) {
     /* Header, Footer y Playlist */
@@ -330,6 +341,7 @@
         justify-self: center;
 
     }
+
     .buscador {
         align-self: flex-start;
         justify-self: flex-end;
@@ -378,6 +390,8 @@
         justify-content: center;
         margin-top: 20px;
         margin-bottom: 30px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
     .dgenerohija{
         display: flex;
@@ -436,16 +450,16 @@
         flex-wrap: wrap;
     }
     .artistaimggenero {
-        max-width: 50px;
-        max-height: 50px;
-        margin-top: 10px;
+        max-width: 65px;
+        max-height: 65px;
+        margin-top: 15px;
         border: 3px green solid;
     }
     .maingeneros {
         margin-left: 30px;
         margin-right: 30px;
         margin-bottom: 45px;
-        height: 63.2vh;
+        min-height: 562px;
     }
     /* Detail Track*/
     .articulocancion {
@@ -846,10 +860,9 @@
 .maingeneros {
     margin-left: 30px;
     margin-right: 30px;
-    height: 63.2vh;
+    height: 529px;
 }
 .titulogeneros {
-    margin-top: 30px;
     text-align: center;
 }
 .contenedordgenero{
