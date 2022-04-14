@@ -86,15 +86,32 @@
     margin-top: 10px;
     align-self: center;
 }
-.artistahija {
+.artistahijagenero {
     width: 230px;
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
     background-color: rgb(84, 175, 175);
     border: solid greenyellow 3px;
     height: 360px;
     border-radius: 10px;
+    color: white;
+}
+.artistahija {
+    width: 230px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(84, 175, 175);
+    border: solid greenyellow 3px;
+    height: 360px;
+    border-radius: 10px;
+    color: white;
+}
+.hiperlinkgeneros {
+    text-decoration: none;
 }
 
 .nombreartista {
@@ -290,6 +307,11 @@
     height: 170px;
     border: 3px green solid;
 }
+.artistaimggenero {
+    width: 170px;
+    height: 170px;
+    border: 3px green solid;
+}
 
 @media (max-width: 420px) {
     /* Header, Footer y Playlist */
@@ -297,6 +319,9 @@
         width: 100vw;
         background-color: orange;
         height: 200px;
+    }
+    .bodyhome {
+        width: 100vw;
     }
     .logo {
         width: 100px;
@@ -387,6 +412,40 @@
         max-width: 100px;
         height: 100px;
         border: 3px green solid;
+    }
+    /* Generos */
+
+    .artistahijagenero {
+        width: 120px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(84, 175, 175);
+        border: solid greenyellow 3px;
+        height: 130px;
+        border-radius: 10px;
+        color: white;
+        margin-top: 10px;
+    }
+    .contenedorgeneros {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: row;
+        margin-bottom: 45px;
+        flex-wrap: wrap;
+    }
+    .artistaimggenero {
+        max-width: 50px;
+        max-height: 50px;
+        margin-top: 10px;
+        border: 3px green solid;
+    }
+    .maingeneros {
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-bottom: 45px;
+        height: 63.2vh;
     }
 }
 
@@ -709,6 +768,7 @@
 .maingeneros {
     margin-left: 30px;
     margin-right: 30px;
+    height: 63.2vh;
 }
 .titulogeneros {
     margin-top: 30px;
