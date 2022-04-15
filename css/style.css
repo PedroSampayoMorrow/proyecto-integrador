@@ -917,7 +917,14 @@
 }
 .artistanomdesc {
     display: flex;
+    flex-direction: column;
     justify-content: space-evenly;
+    background-color: rgba(207, 43, 31, 40%);
+    border: solid white 3px;
+    padding-bottom: 15px;
+    border-radius: 40px;
+    margin-top: 10px;
+    text-decoration: none;
 }
 .resultadoscoincide {
     text-decoration: none;
@@ -1061,4 +1068,96 @@
     flex-direction: column;
     margin-top: 60px;
     border: 3px green solid;
+}
+
+.artistaspodioentero {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.nombrecancionpodio {
+    font-size: 30px;
+    align-self: center;
+    margin-top: 10px;
+    margin-bottom: 0;
+    align-items: center;
+}
+
+.nombredescripcionpodio {
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.podiosegundotercero {
+    display: flex;
+    align-items: center;
+}
+
+.podiocuartoquinto {
+    display: flex;
+    align-items: center;
+}
+
+.podioprimerlugar {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 181, 9, 0.4);
+    border: solid white 3px;
+    width: 350px;
+    border-radius: 40px;
+}
+
+.podiosegundolugar {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(92, 92, 92, 40%);
+    border: solid white 3px;
+    border-radius: 40px;
+    width: 350px;
+}
+
+.podiotercerlugar {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(92, 92, 92, 40%);
+    border: solid white 3px;
+    border-radius: 40px;
+    width: 350px;
+}
+
+.podiocuartolugar {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(172, 106, 0, 0.4);
+    border: solid white 3px;
+    border-radius: 40px;
+    width: 350px;
+    margin-right: 100px;
+}
+
+.podioquintolugar {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(172, 106, 0, 0.4);
+    border: solid white 3px;
+    border-radius: 40px;
+    width: 350px;
+    margin-left: 100px;
+}
+
+.fechapodio {
+    margin-bottom: 0;
+}
+
+.albumpodio {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.reproduccionespodio {
+    margin-top: 0;
+    margin-bottom: 20px;
 }
