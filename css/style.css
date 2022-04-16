@@ -626,6 +626,79 @@
         border-radius: 10px;
         margin-top: 10px;
     }
+
+    /* artistas.html */
+    .contenedorartista {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .artistanomdesc {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+        margin-bottom: 2vh;
+    }
+    .artistaspodioentero {
+        display: flex;
+        flex: wrap;
+        flex-direction: column;
+        margin-top: 2vh !important;
+    }
+    .podioprimero {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin-bottom: 0 !important;
+        margin-top: 0 !important;
+    }
+    .podiosegundotercero {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+    }
+    .podiocuartoquinto {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin-top: 0 !important;
+    }
+    .podioprimerlugar {
+        margin-bottom: 2vh;
+        margin-top: 0;
+    }
+    .podiosegundolugar {
+        margin-bottom: 2vh;
+        margin-top: 0;
+    }
+    .podiotercerlugar{
+        margin-bottom: 2vh;
+        margin-top: 0;
+    }
+    .podiocuartolugar {
+        margin-bottom: 2vh;
+        margin-top: 0;
+        margin-right: 0 !important;
+    }
+    .podioquintolugar {
+        margin-bottom: 2vh;
+        margin-top: 0;
+        margin-left: 0 !important;
+    }
+    .tituloseccionmiembros {
+        margin-left: 5vw;
+    }
+    .titulosecciontop {
+        margin-left: 5vw;
+        margin-bottom: 0 !important;
+    }
+
 }
 
 
@@ -1075,6 +1148,7 @@
     align-items: center;
     flex-direction: column;
     padding-bottom: 20px;
+    margin-top: 2vh;
 }
 
 .nombrecancionpodio {
@@ -1188,3 +1262,4 @@
     margin-top: 0px;
     margin-bottom: 0px;
 }
+
