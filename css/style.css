@@ -677,10 +677,12 @@
     .podiosegundolugar {
         margin-bottom: 2vh;
         margin-top: 0;
+        margin-right: 0 !important;
     }
     .podiotercerlugar{
         margin-bottom: 2vh;
         margin-top: 0;
+        margin-left: 0 !important;
     }
     .podiocuartolugar {
         margin-bottom: 2vh;
