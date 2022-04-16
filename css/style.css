@@ -1074,6 +1074,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    padding-bottom: 20px;
 }
 
 .nombrecancionpodio {
@@ -1094,6 +1095,8 @@
 .podiosegundotercero {
     display: flex;
     align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .podiocuartoquinto {
@@ -1117,6 +1120,7 @@
     border: solid white 3px;
     border-radius: 40px;
     width: 350px;
+    margin-right: 5px;
 }
 
 .podiotercerlugar {
@@ -1126,6 +1130,7 @@
     border: solid white 3px;
     border-radius: 40px;
     width: 350px;
+    margin-left: 5px;
 }
 
 .podiocuartolugar {
@@ -1160,4 +1165,20 @@
 .reproduccionespodio {
     margin-top: 0;
     margin-bottom: 20px;
+}
+
+.tituloseccionmaroonv {
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(139, 0, 0, 50%);
+    margin-bottom: 0;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+}
+
+.tituloseccionmiembros {
+    margin-top: 10px;
 }
