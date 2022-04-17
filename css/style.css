@@ -93,8 +93,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: rgb(84, 175, 175);
-    border: solid greenyellow 3px;
+    background-color: rgba(0, 0, 255, 0.75);
+    border: solid white 3px;
     height: 360px;
     border-radius: 10px;
     color: white;
@@ -179,7 +179,7 @@
     margin: 0px;
 }
 .logoplaylist {
-    border: 3px solid green;
+    border: 3px solid white;
     max-height: 200px;
     max-width: 200px;
     flex-wrap: wrap;
@@ -194,7 +194,7 @@
 }
 .cancionesplaylistpadre {
     background-color: rgb(0, 0, 0);
-    border: 3px green solid;
+    border: 3px white solid;
     width: 70vw;
     display: flex;
     justify-content: space-around;
@@ -204,7 +204,7 @@
     flex-wrap: wrap;
 }
 .cancionesplaylisthija{
-    border: 2px green solid;
+    border: 2px white solid;
     background-color: rgba(206, 43, 43, 0.596);
     width: 30vw;
     margin-top: 30px;
@@ -239,7 +239,7 @@
     margin-top: 20px;
 }
 .cancionplaylisthija {
-    border: 3px green solid;
+    border: 3px white solid;
     background-color: black;
     margin: 10px;
 }
@@ -306,19 +306,20 @@
 .artistaimg {
     width: 170px;
     height: 170px;
-    border: 3px green solid;
+    border: 3px white solid;
 }
 .artistaimggenero {
     width: 170px;
     height: 170px;
-    border: 3px green solid;
+    border: 3px white solid;
 }
 .cajatitulogeneros {
-    background-color: rgba(0, 0, 0, 0.7);
-    border: green 3px solid;
+    background-color: rgba(0, 0, 255, 0.75);
+    border: white 3px solid;
     width: 300px;
     margin-top: 30px;
     margin-bottom: 30px;
+    border-radius: 50px;
 }
 .cajatitulogenerospadre{
     display: flex;
@@ -370,7 +371,7 @@
     
     }
     .cancionesplaylisthija{
-        border: 2px green solid;
+        border: 2px white solid;
         background-color: rgba(206, 43, 43, 0.596);
         width: 60vw;
         margin-top: 20px;
@@ -412,8 +413,8 @@
         justify-content: center;
         flex-direction: column;
         padding: 20px;
-        background-color: black;
-        border: solid greenyellow 3px;
+        background-color: rgba(0, 0, 255, 0.75);
+        border: solid white 3px;
         border-radius: 20px;
     }
     .contenedorgenerolista {
@@ -424,12 +425,12 @@
         margin-bottom: 50px;
     }
     .listagenerohija {
-        background-color: black;
+        background-color: rgba(0, 0, 255, 0.75);
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
-        border: solid greenyellow 3px;
+        border: solid white 3px;
         max-height: 160px;
         max-width: 300px;
         border-radius: 10px;
@@ -438,7 +439,7 @@
     .artistaimg {
         max-width: 100px;
         height: 100px;
-        border: 3px green solid;
+        border: 3px white solid;
     }
     /* Generos */
 
@@ -448,8 +449,8 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        background-color: rgb(84, 175, 175);
-        border: solid greenyellow 3px;
+        background-color: rgba(0, 0, 255, 0.75);
+        border: solid white 3px;
         height: 130px;
         border-radius: 10px;
         color: white;
@@ -466,7 +467,7 @@
         max-width: 65px;
         max-height: 65px;
         margin-top: 15px;
-        border: 3px green solid;
+        border: 3px white solid;
     }
     .maingeneros {
         margin-left: 30px;
@@ -505,7 +506,7 @@
         flex-direction: column;
     }
     .hijacancionesdisco {
-        border: 3px green solid;
+        border: 3px rgba(0, 0, 0, 0.75) solid;
         width: 250px;
         height: 100px;
         display: flex;
@@ -520,7 +521,7 @@
     }
     .imgcanciondisco {
         max-width: 70px;
-        border: 3px rgba(0, 0, 0, 0.75) solid;
+        border: 3px rgba(255, 255, 255) solid;
         margin-top: 0px;
     }
     .nombrecanciondiscodetalle{
@@ -541,7 +542,8 @@
         flex-direction: column;
         min-width: 300px;
         margin-top: 60px;
-        border: 3px green solid;
+        border: 3px white solid;
+        padding: 10px;
     }
     .mainsearch {
         display: flex;
@@ -563,8 +565,8 @@
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
-        background-color: rgb(84, 175, 175);
-        border: solid greenyellow 3px;
+        background-color: rgba(55, 201, 152, 50%);
+        border: 3px rgba(0, 0, 0, 0.75) solid;
         height: 100px;
         margin-left: 20px;
         border-radius: 10px;
@@ -575,7 +577,7 @@
         height: 60px;
         margin: 10px;
         align-self: center;
-        border: 3px green solid;
+        border: 3px white solid;
 
     }
     .nombreartista {
@@ -608,8 +610,8 @@
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
-        background-color: rgb(84, 175, 175);
-        border: solid greenyellow 3px;
+        background-color: rgba(139, 0, 0, 50%);
+        border: 3px rgba(0, 0, 0, 0.75) solid;
         height: 100px;
         margin-left: 20px;
         border-radius: 10px;
@@ -629,8 +631,8 @@
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
-        background-color: rgb(84, 175, 175);
-        border: solid greenyellow 3px;
+        background-color: rgba(128, 0, 128, 0.5);
+        border: 3px rgba(0, 0, 0, 0.75) solid;
         height: 100px;
         margin-left: 20px;
         border-radius: 10px;
@@ -1060,8 +1062,8 @@
     justify-content: center;
     flex-direction: column;
     padding: 20px;
-    background-color: black;
-    border: solid greenyellow 3px;
+    background-color: rgba(0, 0, 255, 0.75);
+    border: solid white 3px;
     border-radius: 20px;
     width: 400px;
 }
@@ -1078,12 +1080,12 @@
     margin-bottom: 50px;
 }
 .listagenerohija {
-    background-color: black;
+    background-color: rgba(0, 0, 255, 0.75);
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    border: solid greenyellow 3px;
+    border: solid white 3px;
     height: 250px;
     width: 600px;
     border-radius: 10px;
@@ -1151,7 +1153,9 @@
     display: flex;
     flex-direction: column;
     margin-top: 60px;
-    border: 3px green solid;
+    border: 3px white solid;
+    border-radius: 50px;
+    padding: 10px;
 }
 
 .artistaspodioentero {
@@ -1324,4 +1328,7 @@
 }
 .iframespotify {
      border: solid white 3px;
+}
+.imggeneroelegido {
+    border: solid white 3px;
 }
