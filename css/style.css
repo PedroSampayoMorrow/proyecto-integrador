@@ -60,11 +60,6 @@
     justify-content: center;
     width: 100vw;
 }
-.tituloseccion {
-    width: 95vw;
-    margin-top: 70px;
-    margin-bottom: 20px;
-}
 .mainhome {
     margin-left: 2.5vw;
     margin-right: 2.5vw;
@@ -1277,4 +1272,19 @@
     margin-top: 0px;
     margin-bottom: 0px;
 }
-
+.tituloseccionpadre {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 200px;
+    border-radius: 50px;
+    border:  green 3px solid;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.tituloseccionpadrecentrar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
