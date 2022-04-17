@@ -335,6 +335,18 @@
         background-color: orange;
         height: 200px;
     }
+    .contenedorheaders {
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+    .paginas {
+        display: flex;
+        flex-direction: column;
+    }
+    .paginasindiv {
+        margin-top: 0.5vh;
+        margin-bottom: 0.5vh;
+    }
     .bodyhome {
         width: 100vw;
     }
