@@ -6,11 +6,11 @@ fetch(topAlbumsEndpoint)
     .then(function(data) {
         console.log(data);
        let objeto= JSON.parse(data.contents)
-       console.log(objeto);
+       console.log(objeto.data);
        let contenedora = document.querySelector(".contenedoralbumes")
        for (let i = 0; i < 5; i++) {
         contenedora.innerHTML += `<div>
-        <a href="./detail-album.html" class="hiperindex">
+        <a href="./detail-album.html?id=${objeto.data[i].id}" class="hiperindex">
             <div class="albumhija" class="hiperindex">
                 <img class="cancionimg" src=${objeto.data[i].cover_medium} alt="Cleopatra">
                 <h3 class="nombreartista">
@@ -37,7 +37,6 @@ fetch(topAlbumsEndpoint)
     .then(function(data) {
         let ol =JSON.parse(data.contents)
        console.log(JSON.parse(data.contents));
-console.log();
        for (let i = 0; i < 5; i++) {
         document.querySelector(".contenedoralbumes2").innerHTML += `<div>
         <a href="./detail-artist.html?id=${ol.artists.data[i].id}" class="hiperindex">
@@ -50,7 +49,7 @@ console.log();
         </a>
     </div>`;}
     for (let i = 0; i < 5; i++) {
-        document.querySelector(".contenedordiscos").innerHTML += `
+        document.querySelector(".contenedordiscos").innerHTML +=  `
         <div>
             <a href="./detail-track.html?id=${ol.tracks.data[i].id}" class="hiperindex">
                 <div class="cancionhija">

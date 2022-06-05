@@ -32,4 +32,4 @@ fetch(endpoint)
     })
     .catch(function (error) {
         console.log(error);
-    })
+    });

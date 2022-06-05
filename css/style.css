@@ -32,6 +32,10 @@
     justify-self: center;
     
 }
+.mainalbum {
+    display: flex;
+    flex-direction: column;
+}
 .bodyhome {
     background-image: url("../img/fondo2.jpeg");
     color: white;
@@ -266,7 +270,7 @@
     margin-top: 40px;
     margin-bottom: 20px;
 }
-.discosdetallepadre {
+.contenedorjs{
     display: flex ;
     background-color: rgba(128, 0, 128, 0.5);
     width: 80vw;
@@ -274,6 +278,12 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+.discosdetallepadre {
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
 }
 .contenedoracancionesdisco{
     display: flex;
