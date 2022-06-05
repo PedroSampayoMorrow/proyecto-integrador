@@ -116,7 +116,7 @@
 }
 
 .nombreartista {
-    font-size: 30px;
+    font-size: 20px;
     align-self: center ;
     margin-bottom: 5px;
     color: white;
@@ -159,6 +159,11 @@
     border-radius: 10px;
 }
 .contenedoralbumes {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.contenedoralbumes2 {
     display: flex;
     justify-content: space-between;
     margin-bottom: 50px;
@@ -458,6 +463,17 @@
 }
 .buscadorheader {
     width: 225px;
+    
+}
+.usuario{
+   margin-left: 20px;
+   background-color: red;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 3px;
+   border-radius: 50px;
+   border: 2px brown solid;
 }
 .favoritoscontenedor {
     display: flex;
@@ -977,6 +993,11 @@
         flex-wrap: wrap;
         margin-bottom: 40px;
         margin: 0%;
+    }
+    .contenedoralbumes2 {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 50px;
     }
     .artistahija {
         width: 300px;
