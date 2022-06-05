@@ -18,7 +18,7 @@ fetch(topAlbumsEndpoint)
                 </h3>
                 <h4 class="nombrealbum">
                 ${objeto.data[i].artist.name}
-                </h4>
+                </h4>   
             </div>
         </a>
     </div>`
@@ -26,25 +26,7 @@ fetch(topAlbumsEndpoint)
     })
     .catch(function(error){
         console.log(error);
-    })
-
-    let topArtistasEndpoint = "https://api.allorigins.win/get?url=https://developers.deezer.com/chart/0/artist"
-    fetch(topArtistasEndpoint)
-    .then(function (response) {
-        return response.json();
-    })
-    .then(function(data) {
-        console.log(data);
-        console.log(data.contents);
-       let contenedora = document.querySelector(".contenedoralbumes2")
-       for (let i = 0; i < 5; i++) {
-       }
-    })
-    .catch(function(error){
-        
-    })
-
-
+    });
 
     let topTrackEndpoint = `https://api.allorigins.win/get?url=https://api.deezer.com/chart`
 
@@ -70,7 +52,7 @@ console.log();
     for (let i = 0; i < 5; i++) {
         document.querySelector(".contenedordiscos").innerHTML += `
         <div>
-            <a href="./detail-track.html" class="hiperindex">
+            <a href="./detail-track.html?id=${ol.tracks.data[i].id}" class="hiperindex">
                 <div class="cancionhija">
                     <img class="cancionimg" src="${ol.tracks.data[i].album.cover_medium}" alt="Music of the spheres">
                     <h3 class="nombreartista">

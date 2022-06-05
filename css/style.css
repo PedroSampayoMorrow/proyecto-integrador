@@ -698,6 +698,16 @@
 }
 .iframespotify {
      border: solid white 3px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+    background-color: black;
+    padding: 30px;
+}
+.iframe {
+    height: 100px;
+    width: 200px;
 }
 .imggeneroelegido {
     border: solid white 3px;

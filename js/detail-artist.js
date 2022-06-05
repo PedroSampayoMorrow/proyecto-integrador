@@ -1,5 +1,5 @@
 let qs = location.search;
-let qsOL= new URLSearchParams(qs)
+let qsOL = new URLSearchParams(qs)
 let idPJ = qsOL.get('id')
 console.log(idPJ);
 
@@ -9,7 +9,7 @@ fetch(endpoint)
     .then(function (response) {
         return response.json();
     })
-    .then(function(data) {
+    .then(function (data) {
         console.log(data)
         let ol = JSON.parse(data.contents)
         console.log(ol);
@@ -28,8 +28,8 @@ fetch(endpoint)
             </div>
         </article>
     </a>`
-    document.querySelector('.tituloseccionmaroonv').innerHTML = ol.name
-       })
-    .catch(function(error){
+        document.querySelector('.tituloseccionmaroonv').innerHTML = ol.name
+    })
+    .catch(function (error) {
         console.log(error);
     })
