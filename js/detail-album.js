@@ -40,7 +40,7 @@ fetch(endpoint)
         let ol = JSON.parse(data.contents)
         console.log(ol);
         for (let i = 0; i < 5; i++) {
-            document.querySelector(".contenedoracancionesdisco").innerHTML +=  `
+            document.querySelector(".contenedoracancionesdisco").innerHTML += `
             <a href="./detail-track.html?id=${ol.tracks.data[i].id}" class="hiperdisco">
                 <article class="hijacancionesdisco">
                     <img src="${ol.cover_medium}" alt="sleeponthefloor" class="imgcanciondisco">

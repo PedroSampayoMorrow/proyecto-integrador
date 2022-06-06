@@ -13,7 +13,7 @@ fetch(endpoint)
         console.log(data)
         let ol = JSON.parse(data.contents)
         console.log(ol);
-        document.querySelector('.contenedorartista').innerHTML = `<a style="text-decoration:none" href="./detail-artist.html">
+        document.querySelector('.contenedorartista').innerHTML = `<a style="text-decoration:none" href="./detail-artist.html?id=${ol.id}">
         <article class="ordencajas">
             <div class="artistahija2">
                 <img class="artistaimg1" src=${ol.picture_medium} alt="Music of the spheres">
@@ -32,4 +32,4 @@ fetch(endpoint)
     })
     .catch(function (error) {
         console.log(error);
-    });
+    })

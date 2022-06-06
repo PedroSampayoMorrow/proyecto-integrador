@@ -28,12 +28,12 @@ fetch(endpoint)
     <a href="./playlist.html" class="verplaylist">
         <p>Ver mis canciones favoritas</p> 
     </a>
-    <a href="./detail-artist.html" class="hiperresultados">
+    <a href="./detail-artist.html?id=${ol.artist.id}" class="hiperresultados">
         <h4 class="nombrebandacancion">
             ${ol.artist.name}
         </h4>
     </a>
-    <a href="./detail-album.html" class="hiperresultados">
+    <a href="./detail-album.html?id=${ol.album.id}" class="hiperresultados">
         <h5 class="detallecanciondisco">
             Disco:  ${ol.album.title}
         </h5>
