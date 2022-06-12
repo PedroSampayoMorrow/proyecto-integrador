@@ -58,6 +58,12 @@
 .hiperindex {
     text-decoration: none;
 }
+#fav{
+    text-decoration: none;
+    margin-top: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
 .contenedorimg {
     display: flex;
     align-items: center;
@@ -167,6 +173,7 @@
     justify-content: space-between;
     margin-bottom: 50px;
 }
+
 .contenedoralbumes2 {
     display: flex;
     justify-content: space-between;
@@ -221,7 +228,9 @@
     margin-bottom: 20px;
     flex-direction: row;
     display: flex;
+    justify-content: space-between;
     max-height: 60px;
+    align-items: center;
     
 }
 .imagencancionplaylist {
@@ -498,6 +507,7 @@ flex-direction: column;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -740,6 +750,28 @@ flex-direction: column;
     display: flex;
     justify-content: center;
 }
+.contenedorfav{
+    margin-top: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 380px;
+    background-color: rgba(55, 201, 152, 0.548);
+    align-items: center;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+.nombrecancionplaylist{
+    font-size: 15px;
+}
+.playlistplay{
+    background: none    ;
+    width: 150px ;
+    height: 55px;
+    justify-self: flex-end;
+    margin-right: 5px;
+}
 @media (max-width: 420px) {
     /* Header, Footer y Playlist */
     .headers {
@@ -790,8 +822,10 @@ flex-direction: column;
         margin-bottom: 10px;
         flex-direction: row;
         display: flex;
+        align-items: center;
+        justify-content: space-between;
         max-height: 60px;
-    }
+    };
     .iconosplaylist {
         display: flex;
         font-size: 30px;
