@@ -26,5 +26,50 @@ if (favoritos == null  || favoritos.length == 0) {
         }).catch(function(e){
         console.log(e);}
         )}
+};
+    let boton = document.querySelector(`.botonplaylist`)
 
-}
+let recuperoStorageIMG = localStorage.getItem(`imagen`)
+console.log(recuperoStorageIMG);
+document.querySelector(`.logoplaylistcontenedor`).innerHTML = `<img src="${recuperoStorageIMG}" class="logoplaylist">`
+if (recuperoStorageIMG == null) {
+    boton.addEventListener(`click`,function (e) {
+        e.preventDefault();
+        let nuevaImagen = prompt(`Pegar aqui la URL de tu nueva imagen!`);
+        localStorage.setItem(`imagen`, nuevaImagen)
+        document.querySelector(`.logoplaylistcontenedor`).innerHTML = `<img src="${recuperoStorageIMG}" class="logoplaylist">`
+    }
+    )}
+    else{
+        boton.addEventListener(`click`,function (e) {
+            e.preventDefault();
+            localStorage.removeItem(`imagen`)
+            let nuevaImagen = prompt(`Pegar aqui la URL de tu nueva imagen!`);
+            localStorage.setItem(`imagen`, nuevaImagen)
+            document.querySelector(`.logoplaylistcontenedor`).innerHTML = `<img src="${recuperoStorageIMG}" class="logoplaylist">`
+    })}
+
+
+/*if (recuperoStorage == null) {
+    document.querySelector(`.logoplaylistcontenedor`).innerHTML = ` <img src="./img/playlist.jpg" class="logoplaylist">`
+} else {
+    document.querySelector(`.logoplaylistcontenedor`).innerHTML = `<img src="${recuperoStorageIMG}" class="logoplaylist">`
+};
+
+if (recuperoStorage == null) {
+    boton.addEventListener(`click`,function (e) {
+        e.preventDefault();
+        let nuevaImagen = prompt(`Pegar aqui la URL de tu nueva imagen!`);
+        localStorage.setItem(`imagen`, nuevaImagen)
+        document.querySelector(`.logoplaylistcontenedor`).innerHTML = `<img src="${recuperoStorageIMG}" class="logoplaylist">`
+    })
+} else {
+    document.querySelector(`.logoplaylistcontenedor`).innerHTML = `<img src="${recuperoStorageIMG}" class="logoplaylist">`
+    boton.addEventListener(`click`,function (e) {
+        e.preventDefault();
+        localStorage.removeItem(`imagen`)
+        let nuevaImagen = prompt(`Pegar aqui la URL de tu nueva imagen!`);
+        localStorage.setItem(`imagen`, nuevaImagen)
+        document.querySelector(`.logoplaylistcontenedor`).innerHTML = `<img src="${recuperoStorageIMG}" class="logoplaylist">`
+    })
+}*/

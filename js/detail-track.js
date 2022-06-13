@@ -21,7 +21,7 @@ fetch(endpoint)
         </div>
     
     <a href="./playlist.html" class="verplaylist">
-                        <p>Ver mis canciones favoritas</p> 
+                        <p>Ir a Playlist</p> 
                     </a>
     <a href="./detail-artist.html?id=${data.artist.id}" class="hiperresultados">
         <h4 class="nombrebandacancion">
@@ -32,7 +32,8 @@ fetch(endpoint)
         <h5 class="detallecanciondisco">
             Disco:  ${data.album.title}
         </h5>
-    </a>`;
+    </a>`
+    ;
        })
     .catch(function(error){
         console.log(error);
