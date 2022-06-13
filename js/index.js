@@ -90,3 +90,4 @@ if (recuperoStorageNombre = null || recuperoStorageNombre == ""){
     localStorage.setItem('nombre',nombreUsuario)} 
     document.querySelector(".usuario").innerText = `Bienvenido`+recuperoStorageNombre ;
 */
+
