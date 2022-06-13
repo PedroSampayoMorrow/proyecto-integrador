@@ -27,27 +27,14 @@ if (favoritos == null  || favoritos.length == 0) {
         console.log(e);}
         )}
 };
-    let boton = document.querySelector(`.botonplaylist`)
+let boton = document.querySelector(`.botonplaylist`)
 
-let recuperoStorageIMG = localStorage.getItem(`imagen`)
-console.log(recuperoStorageIMG);
-document.querySelector(`.logoplaylistcontenedor`).innerHTML = `<img src="${recuperoStorageIMG}" class="logoplaylist">`
-if (recuperoStorageIMG == null) {
     boton.addEventListener(`click`,function (e) {
         e.preventDefault();
         let nuevaImagen = prompt(`Pegar aqui la URL de tu nueva imagen!`);
-        localStorage.setItem(`imagen`, nuevaImagen)
-        document.querySelector(`.logoplaylistcontenedor`).innerHTML = `<img src="${recuperoStorageIMG}" class="logoplaylist">`
-    }
-    )}
-    else{
-        boton.addEventListener(`click`,function (e) {
-            e.preventDefault();
-            localStorage.removeItem(`imagen`)
-            let nuevaImagen = prompt(`Pegar aqui la URL de tu nueva imagen!`);
-            localStorage.setItem(`imagen`, nuevaImagen)
-            document.querySelector(`.logoplaylistcontenedor`).innerHTML = `<img src="${recuperoStorageIMG}" class="logoplaylist">`
-    })}
+        let portada = document.querySelector('.logoplaylist');
+        portada.src = nuevaImagen;
+    })
 
 
 /*if (recuperoStorage == null) {
@@ -72,4 +59,4 @@ if (recuperoStorage == null) {
         localStorage.setItem(`imagen`, nuevaImagen)
         document.querySelector(`.logoplaylistcontenedor`).innerHTML = `<img src="${recuperoStorageIMG}" class="logoplaylist">`
     })
-}*/
+}*/ 
