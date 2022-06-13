@@ -90,15 +90,16 @@
     border-radius: 10px;
 }
 .cancionhijasearch {
-    width: 120px;
+    width: 700px;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
     background-color: rgba(55, 201, 152, 50%);
     border: 3px rgba(0, 0, 0, 0.75) solid;
-    height: 180px;
+    height: 70px;
     border-radius: 10px;
     margin-top: 5px;
+    padding: 15px;
 }
 .cancionimg {
     width: 200px;
@@ -111,7 +112,7 @@
 .cancionimgsearch {
     width: 70px;
     height: 70px;
-    margin-top: 10px;
+    
     border: 3px white solid;
     align-self: center;
     
@@ -152,9 +153,9 @@
     text-decoration: none;
 }
 .nombreartistasearch {
-    font-size: 13px;
+    font-size: 20px;
     align-self: center ;
-    margin-bottom: 5px;
+    
     color: white;
     text-decoration: none;
 }
@@ -165,10 +166,17 @@
     text-decoration: none;
     color: white;
 }
-.nombrealbumsearch {
-    font-size: 10px;
+.nombrealbumartista {
+    font-size: 20px;
     align-self: center;
-    margin-top: 5px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+}
+.nombrealbumsearch {
+    font-size: 15px;
+    align-self: center;
+    
     text-decoration: none;
     color: white;
 }
@@ -214,7 +222,7 @@
 }
 .articlesearch {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
 justify-content: space-around;
 align-content: center;
@@ -402,24 +410,25 @@ flex-direction: column;
     margin: 0;
 }
 .artistahija2 {
-    max-width: 230px;
+    max-width: 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     background-color: rgba(207, 43, 31, 40%);
     border: solid white 3px;
     border-radius: 50%;
+    margin-top: 10px;
 }
 .artistaimg1 {
-    max-width: 200px;
-    height: 200px;
+    max-width: 375px;
+    height: 375px;
     margin: 10px;
     align-self: center;
     border-radius: 50%;
 }
 .contenedorartista {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin-bottom: 50px;
 }
 .ordencajas {
@@ -432,7 +441,7 @@ flex-direction: column;
     justify-content: space-evenly;
     background-color: rgba(207, 43, 31, 40%);
     border: solid white 3px;
-    padding-bottom: 15px;
+    
     border-radius: 40px;
     margin-top: 10px;
     text-decoration: none;
@@ -456,7 +465,7 @@ flex-direction: column;
     text-align: center;
 }
 .mainsearch {
-    height: 150vh;
+    min-height: 64vh;
     display: flex;
     flex-direction: column;
 }

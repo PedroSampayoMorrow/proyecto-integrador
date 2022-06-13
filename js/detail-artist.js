@@ -17,10 +17,7 @@ fetch(endpoint)
                 <img class="artistaimg1" src=${data.picture_medium} alt="Music of the spheres">
             </div>
             <div class="artistanomdesc">
-                <h3 class="nombreartista">
-                ${data.name}
-                </h3>
-                <h4 class="nombrealbum">
+                <h4 class="nombrealbumartista">
                Cantidad de albums: ${data.nb_album}
                 </h4>
             </div>
