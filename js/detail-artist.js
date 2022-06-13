@@ -24,6 +24,24 @@ fetch(endpoint)
         </article>
     </a>`
         document.querySelector('.tituloseccionmaroonv').innerHTML = data.name
+    fetch(data.tracklist)
+    .then(function (response) {
+        return response.json();
+    }).then(function (data) {
+        console.log(data);
+        for (let i = 0; i < 5; i++) {
+            document.querySelector(".podioprimero").innerHTML += ` <a href="./detail-track.html?id=${data.data[i].id}" class="hiperresultados">
+            <article class="podioprimerlugar">
+                <h3 class="nombrecancionpodio">${i +1 } - ${data.data[i].title}</h3>
+                <h3 class="nombredescripcionpodio fechapodio">2014</h3>
+                <h3 class="nombredescripcionpodio albumpodio">Album: ${data.data[i].album.title}</h3>
+                <h3 class="nombredescripcionpodio reproduccionespodio">Reproducciones: 5.015.184.788</h3>
+            </article>
+        </a>`
+        }
+    }).catch(function (error) {
+        console.log(error);
+    })
     })
     .catch(function (error) {
         console.log(error);
@@ -31,4 +49,3 @@ fetch(endpoint)
    
 
 
-    
