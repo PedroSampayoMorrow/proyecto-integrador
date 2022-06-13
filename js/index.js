@@ -91,3 +91,14 @@ if (recuperoStorageNombre = null || recuperoStorageNombre == ""){
     document.querySelector(".usuario").innerText = `Bienvenido`+recuperoStorageNombre ;
 */
 
+let buscador = document.querySelector('.buscador')
+let campoBuscar = document.querySelector('#busqueda')
+
+buscador.addEventListener('submit', function (e) {
+    e.preventDefault()
+    if (campoBuscar.value.length < 3) {
+        alert("El termino buscado debe tener mas de 3 letras")
+    } else {
+        this.submit();
+    }
+})
