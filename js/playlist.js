@@ -16,8 +16,10 @@ if (favoritos == null  || favoritos.length == 0) {
             console.log(data);
             section.innerHTML += `
             <div class="hiperplaylist">
-                        <div class="cancionesplaylisthija">
+                        <div class="cancionesplaylisthija"> 
+                        <a href="./detail-track.html?id=${data.id}">
                             <img src="${data.album.cover_medium}" alt="parachutes" class="imagencancionplaylist">
+                            </a>
                             <h3 class="nombrecancionplaylist">${data.title}</h3>
                             <iframe src="${data.preview}" class="playlistplay" frameborder="0"></iframe>
                         </div>

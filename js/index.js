@@ -73,13 +73,14 @@ fetch(topAlbumsEndpoint)
     })
 
 
-recuperoStorageNombre = localStorage.getItem(`nombre`);
+let recuperoStorageNombre = localStorage.getItem('nombre');
 console.log(recuperoStorageNombre);
 if (recuperoStorageNombre == null || recuperoStorageNombre == ""){
     let nup = prompt("Bienvenido! Cual es tu nombre?") 
     let nombreUsuario = nup
     localStorage.setItem('nombre',nombreUsuario)} 
-    document.querySelector(".usuario").innerText = `Bienvenido `+  recuperoStorageNombre ;
+    let nuevoNombre = localStorage.getItem('nombre')
+    document.querySelector(".usuario").innerText = `Bienvenido `+  nuevoNombre ;
 
 /*let nombreUsuario = []
 let recuperoStorageNombre = localStorage.getItem('nombre')

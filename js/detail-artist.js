@@ -25,19 +25,19 @@ fetch(endpoint)
     </a>`
 
         document.querySelector('.tituloseccionmaroonv').innerHTML = data.name
-      let  urlnueva = 
-    fetch(data.tracklist)
+      let  urlnueva = `https://api.allorigins.win/raw?url=https://api.deezer.com/artist/${data.id}/albums`
+    fetch(urlnueva)
     .then(function (response) {
         return response.json();
     }).then(function (data) {
         console.log(data);
         for (let i = 0; i < 5; i++) {
-            document.querySelector(".podioprimero").innerHTML += ` <a href="./detail-track.html?id=${data.data[i].id}" class="hiperresultados">
+            document.querySelector(".podioprimero").innerHTML += ` <a href="./detail-album.html?id=${data.data[i].id}" class="hiperresultados">
             <article class="podioprimerlugar">
                 <h3 class="nombrecancionpodio">${i +1 } - ${data.data[i].title}</h3>
-                <h3 class="nombredescripcionpodio fechapodio">2014</h3>
-                <h3 class="nombredescripcionpodio albumpodio">Album: ${data.data[i].album.title}</h3>
-                <h3 class="nombredescripcionpodio reproduccionespodio">Reproducciones: 5.015.184.788</h3>
+                <h3 class="nombredescripcionpodio fechapodio">${data.data[i].release_date}</h3>
+                <h3 class="nombredescripcionpodio albumpodio"></h3>
+                <h3 class="nombredescripcionpodio reproduccionespodio">Cantidad de fanes: ${data.data[i].fans}</h3>
             </article>
         </a>`
         }
