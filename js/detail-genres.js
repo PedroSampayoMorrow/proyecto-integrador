@@ -16,7 +16,7 @@ fetch(endpoint)
         document.querySelector('.contenedorgenerolista').innerHTML += `<a href="./detail-artist.html?id=${data.artists.data[i].id}" class="hipergenero">
         <div class="listagenerohija">
             <img class="artistaimg" src="${data.artists.data[i].picture_small}" alt="${data.artists.data[i].name}">
-            <h3 class="nombredgenero">
+            <h3 class="nombredgeneroartista">
             ${data.artists.data[i].name}
             </h3>
         </div>

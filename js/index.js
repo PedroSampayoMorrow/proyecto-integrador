@@ -42,7 +42,7 @@ fetch(topAlbumsEndpoint)
         document.querySelector(".contenedoralbumes2").innerHTML += `<div>
         <a href="./detail-artist.html?id=${ol.data[i].id}" class="hiperindex">
             <div class="artistahija">
-                <img class="cancionimg" src=${ol.data[i].picture_medium} alt="${ol.data[i].name}">
+                <img class="cancionimg2" src=${ol.data[i].picture_medium} alt="${ol.data[i].name}">
                 <h3 class="nombreartista">
                 ${ol.data[i].name}
                 </h3>
@@ -54,7 +54,7 @@ fetch(topAlbumsEndpoint)
         <div>
             <a href="./detail-track.html?id=${ot.data[i].id}" class="hiperindex">
                 <div class="cancionhija">
-                    <img class="cancionimg" src="${ot.data[i].album.cover_medium}" alt="Music of the spheres">
+                    <img class="cancionimg3" src="${ot.data[i].album.cover_medium}" alt="Music of the spheres">
                     <h3 class="nombreartista">
                     ${ot.data[i].title}
                     </h3>

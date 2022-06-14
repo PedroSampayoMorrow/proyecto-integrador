@@ -11,11 +11,11 @@ fetch(endpoint)
     })
     .then(function(data) {
         console.log(data)
-        document.querySelector('.articulocancionhija').innerHTML += `<h1>
+        document.querySelector('.articulocancionhija').innerHTML += `<h1 class="titulocanciondetalle">
         ${data.title}
     </h1>
     <div class="iframespotify">
-    <img src="${data.album.cover_medium}" alt="">
+    <img src="${data.album.cover_medium}" alt="${data.title}">
     <iframe src=${data.preview}
         frameborder="0" allowtransparency="true" allow="encrypted-media" class="iframe"></iframe>
         </div>
@@ -72,7 +72,7 @@ fetch(endpoint)
         localStorage.setItem('favoritos', favToString);
     });
 
-    
+
     let buscador = document.querySelector('.buscador')
     let campoBuscar = document.querySelector('#busqueda')
     

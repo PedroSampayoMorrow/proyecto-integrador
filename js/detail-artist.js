@@ -14,7 +14,7 @@ fetch(endpoint)
         document.querySelector('.contenedorartista').innerHTML = `<a style="text-decoration:none" href="./detail-artist.html?id=${data.id}">
         <article class="ordencajas">
             <div class="artistahija2">
-                <img class="artistaimg1" src=${data.picture_medium} alt="Music of the spheres">
+                <img class="artistaimg1" src=${data.picture_medium} alt="${data.name}">
             </div>
             <div class="artistanomdesc">
                 <h4 class="nombrealbumartista">
@@ -31,12 +31,12 @@ fetch(endpoint)
         return response.json();
     }).then(function (data) {
         console.log(data);
-        for (let i = 0; i < 5; i++) {
+        for (let i = 0; i < 3; i++) {
             document.querySelector(".podioprimero").innerHTML += ` <a href="./detail-album.html?id=${data.data[i].id}" class="hiperresultados">
             <article class="podioprimerlugar">
                 <h3 class="nombrecancionpodio">${i +1 } - ${data.data[i].title}</h3>
                 <h3 class="nombredescripcionpodio fechapodio">${data.data[i].release_date}</h3>
-                <h3 class="nombredescripcionpodio albumpodio"></h3>
+                <img src="${data.data[i].cover_medium}" alt="${data.data[i].title}" class = "imgdiscosdetalle">
                 <h3 class="nombredescripcionpodio reproduccionespodio">Cantidad de fanes: ${data.data[i].fans}</h3>
             </article>
         </a>`

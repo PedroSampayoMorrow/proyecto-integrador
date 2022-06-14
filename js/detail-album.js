@@ -39,7 +39,7 @@ fetch(endpoint)
             document.querySelector(".contenedoracancionesdisco").innerHTML += `
             <a href="./detail-track.html?id=${data.tracks.data[i].id}" class="hiperdisco">
                 <article class="hijacancionesdisco">
-                    <img src="${data.cover_medium}" alt="sleeponthefloor" class="imgcanciondisco">
+                    <img src="${data.cover_medium}" alt="${data.tracks.data[i].title_short}" class="imgcanciondisco">
                     <h3 class="nombrecanciondiscodetalle">${data.tracks.data[i].title_short}</h3>
                 </article>`
         }

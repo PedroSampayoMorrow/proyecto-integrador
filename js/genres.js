@@ -10,7 +10,7 @@ fetch(topGenreEndpoint)
     document.querySelector(".contenedorgeneros").innerHTML += `<div>
     <a href="detail-genres.html?id=${data.data[i].id}" class="hiperlinkgeneros">
                     <div class="artistahijagenero">
-                        <img class="artistaimggenero" src=${data.data[i].picture_medium} alt="Jazz">
+                        <img class="artistaimggenero" src=${data.data[i].picture_medium} alt="${data.data [i].name}">
                         <h3 class="nombrebanda">
                             ${data.data [i].name}
                         </h3>
@@ -19,7 +19,7 @@ fetch(topGenreEndpoint)
     .catch(function (error) {
         console.log(error);
     });
-    
+
     let buscador = document.querySelector('.buscador')
 let campoBuscar = document.querySelector('#busqueda')
 
