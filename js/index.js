@@ -102,4 +102,4 @@ buscador.addEventListener('submit', function (e) {
     } else {
         this.submit();
     }
-})
+});

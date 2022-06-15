@@ -73,3 +73,4 @@ buscador.addEventListener('submit', function (e) {
         this.submit();
     }
 })
+

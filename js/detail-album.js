@@ -11,7 +11,7 @@ fetch(endpoint)
     })
     .then(function (data) {
         console.log(data)
-        document.querySelector(".discosdetallepadre").innerHTML = `<img src=${data.cover_medium} alt="${data.title}" class="imgdiscosdetalle">
+        document.querySelector(".discosdetallepadre").innerHTML = `<img src=${data.cover_medium} alt="${data.title}" class="imgdiscosdetalle2">
         <h1 class="nombrediscodetalle">Disco: ${data.title}</h1>
         <a href="./detail-artist.html?id=${data.artist.id}" class="hiperdisco">
             <h2>${data.artist.name}</h2>

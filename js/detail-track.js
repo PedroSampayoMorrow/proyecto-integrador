@@ -15,7 +15,7 @@ fetch(endpoint)
         ${data.title}
     </h1>
     <div class="iframespotify">
-    <img src="${data.album.cover_medium}" alt="${data.title}">
+    <img src="${data.album.cover_medium}" alt="${data.title}" class = "imgdetailtrack">
     <iframe src=${data.preview}
         frameborder="0" allowtransparency="true" allow="encrypted-media" class="iframe"></iframe>
         </div>

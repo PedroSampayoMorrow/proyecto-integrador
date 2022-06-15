@@ -152,7 +152,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color:rgba(126, 126, 126, 0.5);;
+    background-color:rgba(126, 126, 126, 0.5);
     border: 3px rgb(211, 4, 4) solid;
     height: 360px;
     border-radius: 10px;
@@ -245,6 +245,23 @@
     flex-wrap: wrap;
 justify-content: space-around;
 align-content: center;
+}
+.articlesearch2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+justify-content: space-around;
+align-content: center;
+}
+.articlesearch3 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+justify-content: space-around;
+align-content: center;
+}
+.leyendasinres{
+    text-align: center;
 }
 .articleplaylist {
     display: flex;
@@ -339,7 +356,12 @@ align-content: center;
 }
 .imgdiscosdetalle {
     max-width: 200px;
-    border: 3px rgba(0, 0, 0, 0.75) solid;
+    border: 3px rgb(211, 4, 4) solid;
+    margin-top: 40px;
+}
+.imgdiscosdetalle2 {
+    max-width: 200px;
+    border: 3px rgba(128, 0, 128, 1) solid;
     margin-top: 40px;
 }
 .discosdetalleseccion {
@@ -351,9 +373,9 @@ align-content: center;
 }
 .contenedorjs{
     display: flex ;
-    background-color: rgba(128, 0, 128, 0.5);
+    background-color: rgba(126, 126, 126, 0.5);
     width: 80vw;
-    border: 3px rgba(0, 0, 0, 0.75) solid;
+    border: 3px rgba(128, 0, 128, 1) solid;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -373,14 +395,14 @@ flex-direction: column;
     text-align: center;
 }
 .hijacancionesdisco {
-    border: 3px rgba(0, 0, 0, 0.75) solid;
+    border: 3px rgba(128, 0, 128, 1) solid;
     width: 150px;
     max-height: 250px;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    background-color: rgba(218, 165, 32, 0.5);
+    background-color: rgba(8, 8, 8, 0.75) ;
     margin-bottom: 40px;
     margin-top:20px;
     margin-left: 20px;
@@ -389,7 +411,7 @@ flex-direction: column;
 }
 .imgcanciondisco {
     max-width: 120px;
-    border: 3px white solid;
+    border: 3px rgba(128, 0, 128, 1) solid;
     margin-top: 20px;
 }
 .nombrecanciondiscodetalle{
@@ -440,8 +462,8 @@ flex-direction: column;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: rgba(207, 43, 31, 40%);
-    border: solid white 3px;
+    background-color: rgba(126, 126, 126, 0.5);
+    border: 3px rgb(211, 4, 4) solid;
     border-radius: 50%;
     margin-top: 10px;
 }
@@ -465,8 +487,8 @@ flex-direction: column;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    background-color: rgba(207, 43, 31, 40%);
-    border: solid white 3px;
+    background-color: rgba(126, 126, 126, 0.5);
+    border: 3px rgb(211, 4, 4) solid;
     
     border-radius: 40px;
     margin-top: 10px;
@@ -610,9 +632,9 @@ flex-direction: column;
     flex-direction: column;
     justify-content: center;
     width: 400px;
-    background-color: rgba(55, 201, 152, 0.548);
+    background-color: rgba(126, 126, 126, 0.5);
     align-items: center;
-    border: 3px solid black;
+    border: 3px solid rgb(0, 197, 16);
     border-radius: 10px;
 }
 .detallecanciondisco {
@@ -639,6 +661,31 @@ flex-direction: column;
     padding: 10px;
     
 }
+.cajasearch4 {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 50vw;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    border: 3px white solid;
+    border-radius: 50px;
+    padding: 40px;
+    
+}
+.cajasearch5 {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 50vw;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    border: 3px white solid;
+    border-radius: 50px;
+    padding: 40px;
+    margin-bottom: 30px;
+    
+}
 .cajasearch3 {
     background-color: rgba(0, 0, 0, 0.5);
     width: 50vw;
@@ -660,7 +707,8 @@ flex-direction: column;
     margin-top: 60px;
     border: 3px white solid;
     border-radius: 50px;
-    padding: 10px;
+    padding: 40px;
+    
 }
 
 
@@ -694,8 +742,8 @@ flex-direction: column;
 .podioprimerlugar {
     display: flex;
     flex-direction: column;
-    background-color: rgba(255, 181, 9, 50%);
-    border: solid white 3px;
+    background-color: rgba(126, 126, 126, 0.5);
+    border: 3px rgb(211, 4, 4) solid;
     align-items: center;
     justify-content: center;
     width: 350px;
@@ -761,7 +809,8 @@ flex-direction: column;
     font-size: 50px;
     display: flex;
     justify-content: center;
-    background-color: rgba(139, 0, 0, 50%);
+    background-color: rgba(126, 126, 126, 0.5);
+    border: 3px rgb(211, 4, 4) solid ;
     margin-bottom: 0;
     margin-top: 20px;
     padding-top: 10px;
@@ -823,7 +872,7 @@ flex-direction: column;
     justify-content: center;
 }
 .iframespotify {
-     border: solid white 3px;
+     border: 3px solid rgb(0, 197, 16);
      display: flex;
      align-items: center;
      justify-content: center;
@@ -864,10 +913,13 @@ flex-direction: column;
     flex-direction: row;
     justify-content: space-around;
     width: 380px;
-    background-color: rgba(55, 201, 152, 0.548);
+    background-color: rgba(126, 126, 126, 0.5);
     align-items: center;
-    border: 3px solid black;
+    border: 3px solid rgb(0, 197, 16);
     border-radius: 10px;
+}
+.imgdetailtrack {
+     border: 3px solid rgb(0, 197, 16)
 }
 .nombrecancionplaylist{
     font-size: 15px;
@@ -883,12 +935,12 @@ flex-direction: column;
     justify-content: space-evenly;
     margin-bottom: 0 !important;
     margin-top: 0 !important;
+    align-items: center;
 }
 @media (max-width: 420px) {
     /* Header, Footer y Playlist */
     .headers {
         width: 100vw;
-        background-color: orange;
         height: 200px;
     }
     .contenedorheaders {
@@ -964,6 +1016,9 @@ flex-direction: column;
         margin-bottom: 30px;
         margin-left: 10px;
         margin-right: 10px;
+    }
+    .nombredgeneroartista{
+        font-size: 12px;
     }
     .dgenerohija{
         display: flex;
@@ -1048,12 +1103,15 @@ flex-direction: column;
         flex-direction: column;
         justify-content: center;
         width: 350px;
-        background-color: rgba(55, 201, 152, 0.548);
+        background-color: rgba(126, 126, 126, 0.5);
         align-items: center;
-        border: 3px solid rgba(255, 0, 0, 0.5);
+        border: 3px solid rgb(0, 197, 16);
         border-radius: 10px;
         margin-left: 25px;
         margin-right: 25px;
+    }
+    .contenedorfav{
+        width: 330px;
     }
     /*Detalle Disco */
     .nombrediscodetalle {
@@ -1066,14 +1124,14 @@ flex-direction: column;
         flex-direction: column;
     }
     .hijacancionesdisco {
-        border: 3px rgba(0, 0, 0, 0.75) solid;
+        border: 3px rgba(128, 0, 128, 1) solid;
         width: 250px;
         height: 100px;
         display: flex;
         justify-content: space-around;
         flex-direction: row;
         align-items: center;
-        background-color: gray;
+        background-color: rgba(8, 8, 8, 0.75);
         margin-bottom: 40px;
         margin-top:20px;
         margin-left: 20px;
@@ -1081,7 +1139,7 @@ flex-direction: column;
     }
     .imgcanciondisco {
         max-width: 70px;
-        border: 3px rgba(255, 255, 255) solid;
+        border: 3px rgba(128, 0, 128, 1) solid;
         margin-top: 0px;
     }
     .nombrecanciondiscodetalle{
@@ -1135,8 +1193,8 @@ flex-direction: column;
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
-        background-color: rgba(55, 201, 152, 50%);
-        border: 3px rgba(0, 0, 0, 0.75) solid;
+        background-color: rgba(126, 126, 126, 0.5);
+        border: 3px rgb(0, 197, 16) solid;
         height: 100px;
         margin-left: 0px;
         border-radius: 10px;
@@ -1147,7 +1205,7 @@ flex-direction: column;
         height: 60px;
         margin: 10px;
         align-self: center;
-        border: 3px white solid;
+        border: 3px rgba(128, 0, 128, 1) solid;
 
     }
     .cancionimg2 {
@@ -1155,7 +1213,7 @@ flex-direction: column;
         height: 60px;
         margin: 10px;
         align-self: center;
-        border: 3px white solid;
+        border: 3px rgb(211, 4, 4) solid;
 
     }
     .cancionimg3 {
@@ -1163,7 +1221,7 @@ flex-direction: column;
         height: 60px;
         margin: 10px;
         align-self: center;
-        border: 3px white solid;
+        border: 3px rgb(0, 197, 16) solid;
 
     }
     .nombreartista {
@@ -1192,6 +1250,8 @@ flex-direction: column;
     .contenedoralbumes2 {
         display: flex;
         justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
         margin-bottom: 50px;
     }
     .artistahija {
@@ -1201,8 +1261,8 @@ flex-direction: column;
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
-        background-color: rgba(139, 0, 0, 50%);
-        border: 3px rgba(0, 0, 0, 0.75) solid;
+        background-color: rgba(126, 126, 126, 0.5);
+        border: 3px rgb(211, 4, 4) solid solid;
         height: 100px;
         margin-left: 0px;
         border-radius: 10px;
@@ -1222,8 +1282,8 @@ flex-direction: column;
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
-        background-color: rgba(128, 0, 128, 0.5);
-        border: 3px rgba(0, 0, 0, 0.75) solid;
+        background-color: rgba(126, 126, 126, 0.5);
+        border: 3px rgba(128, 0, 128, 1) solid;
         height: 100px;
         margin-left: 0px;
         border-radius: 10px;
@@ -1265,6 +1325,13 @@ flex-direction: column;
         flex-direction: column;
         margin-top: 0 !important;
         margin-bottom: 0 !important;
+    }
+    .artistaimg1 {
+        max-width: 335px;
+        height: 335px;
+        margin: 10px;
+        align-self: center;
+        border-radius: 50%;
     }
     .podiocuartoquinto {
         display: flex;
