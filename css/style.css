@@ -943,6 +943,47 @@ flex-direction: column;
         width: 100vw;
         height: 200px;
     }
+    .cancionplaylistpadre {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        flex-direction: row;
+    }
+    
+    .usuario{
+        margin-left: 20px;
+        background-color: red;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 3px;
+        border-radius: 50px;
+        border: 2px brown solid;
+        font-size: 10px;
+     }
+     .cancionesplaylistpadre {
+        background-color: rgba(0, 0, 0, 75%);
+        border-radius: 20px;
+        border: 3px white solid;
+        width: 70vw;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+        margin-bottom: 30px;
+        flex-wrap: wrap;
+    }
+    .imagencancionplaylist {
+        height: 60px;
+        margin-top: 10px;
+        border: 3px white solid;
+    }
+    .playlistplay{
+        width: 30vw;
+        height: 60px;
+        justify-self: flex-end;
+    }
     .contenedorheaders {
         margin-left: 5vw;
         margin-right: 5vw;
@@ -981,14 +1022,14 @@ flex-direction: column;
     .cancionesplaylisthija{
         border: 2px white solid;
         background-color: rgba(206, 43, 43, 0.596);
-        width: 60vw;
+        width: 30vw;
         margin-top: 20px;
         margin-bottom: 10px;
-        flex-direction: row;
+        flex-direction: column;
         display: flex;
         align-items: center;
         justify-content: space-between;
-        max-height: 60px;
+        max-height: 300px;
     };
     .iconosplaylist {
         display: flex;

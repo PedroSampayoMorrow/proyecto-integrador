@@ -1,4 +1,4 @@
-let topGenreEndpoint = `https://api.allorigins.win/raw?url=https://api.deezer.com/genre`
+let topGenreEndpoint = `https://cors-anywhere.herokuapp.com/https://api.deezer.com/genre`
 fetch(topGenreEndpoint)
 .then(function (response) {
     return response.json();

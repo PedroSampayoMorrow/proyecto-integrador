@@ -3,7 +3,7 @@ let qsOL = new URLSearchParams(qs)
 let idPJ = qsOL.get('id')
 console.log(idPJ);
 
-let endpoint = `https://api.allorigins.win/raw?url=https://api.deezer.com/artist/` + idPJ
+let endpoint = `https://cors-anywhere.herokuapp.com/https://api.deezer.com/artist/` + idPJ
 
 fetch(endpoint)
     .then(function (response) {
@@ -25,7 +25,7 @@ fetch(endpoint)
     </a>`
 
         document.querySelector('.tituloseccionmaroonv').innerHTML = data.name
-      let  urlnueva = `https://api.allorigins.win/raw?url=https://api.deezer.com/artist/${data.id}/albums`
+      let  urlnueva = `https://cors-anywhere.herokuapp.com/https://api.deezer.com/artist/${data.id}/albums`
     fetch(urlnueva)
     .then(function (response) {
         return response.json();

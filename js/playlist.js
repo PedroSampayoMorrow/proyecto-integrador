@@ -9,7 +9,7 @@ if (favoritos == null  || favoritos.length == 0) {
 } else {
     for (let i = 0; i < favoritos.length; i++) {
         
-        let url = `https://api.allorigins.win/raw?url=https://api.deezer.com/track/${favoritos[i]}` 
+        let url = `https://cors-anywhere.herokuapp.com/https://api.deezer.com/track/${favoritos[i]}` 
         fetch(url).then(function (response) {
             return response.json()
         }).then (function (data) {
@@ -39,29 +39,7 @@ let boton = document.querySelector(`.botonplaylist`)
     })
 
 
-/*if (recuperoStorage == null) {
-    document.querySelector(`.logoplaylistcontenedor`).innerHTML = ` <img src="./img/playlist.jpg" class="logoplaylist">`
-} else {
-    document.querySelector(`.logoplaylistcontenedor`).innerHTML = `<img src="${recuperoStorageIMG}" class="logoplaylist">`
-};
 
-if (recuperoStorage == null) {
-    boton.addEventListener(`click`,function (e) {
-        e.preventDefault();
-        let nuevaImagen = prompt(`Pegar aqui la URL de tu nueva imagen!`);
-        localStorage.setItem(`imagen`, nuevaImagen)
-        document.querySelector(`.logoplaylistcontenedor`).innerHTML = `<img src="${recuperoStorageIMG}" class="logoplaylist">`
-    })
-} else {
-    document.querySelector(`.logoplaylistcontenedor`).innerHTML = `<img src="${recuperoStorageIMG}" class="logoplaylist">`
-    boton.addEventListener(`click`,function (e) {
-        e.preventDefault();
-        localStorage.removeItem(`imagen`)
-        let nuevaImagen = prompt(`Pegar aqui la URL de tu nueva imagen!`);
-        localStorage.setItem(`imagen`, nuevaImagen)
-        document.querySelector(`.logoplaylistcontenedor`).innerHTML = `<img src="${recuperoStorageIMG}" class="logoplaylist">`
-    })
-}*/ 
 let buscador = document.querySelector('.buscador')
 let campoBuscar = document.querySelector('#busqueda')
 

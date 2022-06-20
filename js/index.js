@@ -1,4 +1,4 @@
-let topAlbumsEndpoint = 'https://api.allorigins.win/raw?url=https://api.deezer.com/chart/0/albums'
+let topAlbumsEndpoint = 'https://cors-anywhere.herokuapp.com/https://api.deezer.com/chart/0/albums'
 fetch(topAlbumsEndpoint)
     .then(function (response) {
         return response.json();
@@ -28,7 +28,7 @@ fetch(topAlbumsEndpoint)
         console.log(error);
     });
 
-    let topTrackEndpoint = `https://api.allorigins.win/raw?url=https://api.deezer.com/chart`
+    let topTrackEndpoint = `https://cors-anywhere.herokuapp.com/https://api.deezer.com/chart`
 
     fetch(topTrackEndpoint)
     .then(function (response) {

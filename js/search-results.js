@@ -3,7 +3,7 @@ let qsOL = new URLSearchParams(qs)
 
 let valor = qsOL.get("buscar")
 console.log(valor);
-let url = `https://api.allorigins.win/raw?url=https://api.deezer.com/search?q=` +valor;
+let url = `https://cors-anywhere.herokuapp.com/https://api.deezer.com/search?q=${valor}`;
 
 let section = document.querySelector(`articlesearch`)
 
@@ -59,7 +59,7 @@ let section = document.querySelector(`articlesearch`)
         }
     })
 
-    let urlArtistas = `https://api.allorigins.win/raw?url=https://api.deezer.com/search/artist?q=${valor}`
+    let urlArtistas = `https://cors-anywhere.herokuapp.com/https://api.deezer.com/search/artist?q=${valor}`
     fetch(urlArtistas)
     .then(function (response) {
         return response.json();
@@ -89,7 +89,7 @@ let section = document.querySelector(`articlesearch`)
         console.log(error)
     })
 
-    let urlDiscos = `https://api.allorigins.win/raw?url=https://api.deezer.com/search/album?q=${valor}`
+    let urlDiscos = `https://cors-anywhere.herokuapp.com/https://api.deezer.com/search/album?q=${valor}`
     fetch(urlDiscos)
     .then(function (response) {
         return response.json();
