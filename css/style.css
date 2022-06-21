@@ -1428,4 +1428,15 @@ flex-direction: column;
         margin-left: 5px;
         margin-right: 5px;
     }
+    .cancionhijasearch {
+        width: 30vw;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        text-align: center;
+        height: auto;
+    }
 }
