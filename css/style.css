@@ -519,6 +519,7 @@ flex-direction: column;
     min-height: 64vh;
     display: flex;
     flex-direction: column;
+    padding-bottom: 50px;
 }
 .contenedorgeneros {
     display: flex;
@@ -961,6 +962,15 @@ flex-direction: column;
 }
 .mainplaylist {
     padding-bottom: 50px;
+}
+#footerssearch {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+#bodysearch {
+    position: relative;
+    min-height: 100vh;
 }
 @media (max-width: 420px) {
     /* Header, Footer y Playlist */
