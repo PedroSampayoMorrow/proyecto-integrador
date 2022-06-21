@@ -409,6 +409,7 @@ flex-direction: column;
     margin-left: 20px;
     margin-right: 20px;
     padding: 7px;
+    border-radius: 10px;
 }
 .imgcanciondisco {
     max-width: 120px;
