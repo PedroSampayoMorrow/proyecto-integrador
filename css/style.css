@@ -722,6 +722,7 @@ flex-direction: column;
     margin-top: 20px;
     margin-bottom: 0;
     align-items: center;
+    text-align: center;
 }
 
 .nombredescripcionpodio {

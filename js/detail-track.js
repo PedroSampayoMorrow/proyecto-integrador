@@ -3,7 +3,7 @@ let qsOL= new URLSearchParams(qs)
 let idPJ = qsOL.get('id')
 console.log(idPJ);
 
-let endpoint = `https://api.allorigins.win/raw?url=https://api.deezer.com/track/` + idPJ
+let endpoint = "https://api.allorigins.win/raw?url=https://api.deezer.com/track/" + idPJ
 
 fetch(endpoint)
     .then(function (response) {
@@ -43,7 +43,6 @@ fetch(endpoint)
     let recuperoStorage = localStorage.getItem('favoritos')
 
     if (recuperoStorage != null) {
-        /* Si recupero el storage y me trae algo, quiero convertirlo en un tipo de dato de JS*/
         favoritos = JSON.parse(recuperoStorage);
     }
     let cor = document.querySelector(`.corazon`)
@@ -66,7 +65,6 @@ fetch(endpoint)
             cor.innerHTML = `<i class="fa-solid fa-heart"></i>`;
         }
     
-        /* Subir info al local storage */
     
         let favToString = JSON.stringify(favoritos);
         localStorage.setItem('favoritos', favToString);

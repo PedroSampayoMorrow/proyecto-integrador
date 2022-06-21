@@ -3,7 +3,7 @@ let qsOL = new URLSearchParams(qs)
 let idPJ = qsOL.get('id')
 console.log(idPJ);
 
-let endpoint = ` https://api.allorigins.win/raw?url=https://api.deezer.com/artist/` + idPJ
+let endpoint = "https://api.allorigins.win/raw?url=https://api.deezer.com/artist/" + idPJ
 
 fetch(endpoint)
     .then(function (response) {

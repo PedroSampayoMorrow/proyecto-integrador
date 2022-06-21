@@ -1,4 +1,4 @@
-let topAlbumsEndpoint = 'https://api.allorigins.win/raw?url=https://api.deezer.com/chart/0/albums'
+let topAlbumsEndpoint = "https://api.allorigins.win/raw?url=https://api.deezer.com/chart/0/albums"
 fetch(topAlbumsEndpoint)
     .then(function (response) {
         return response.json();
@@ -28,7 +28,7 @@ fetch(topAlbumsEndpoint)
         console.log(error);
     });
 
-    let topTrackEndpoint = `https://api.allorigins.win/raw?url=https://api.deezer.com/chart`
+    let topTrackEndpoint = "https://api.allorigins.win/raw?url=https://api.deezer.com/chart"
 
     fetch(topTrackEndpoint)
     .then(function (response) {
@@ -81,16 +81,6 @@ if (recuperoStorageNombre == null || recuperoStorageNombre == ""){
     localStorage.setItem('nombre',nombreUsuario)} 
     let nuevoNombre = localStorage.getItem('nombre')
     document.querySelector(".usuario").innerText = `Bienvenido `+  nuevoNombre ;
-
-/*let nombreUsuario = []
-let recuperoStorageNombre = localStorage.getItem('nombre')
-console.log(recuperoStorageNombre);
-if (recuperoStorageNombre = null || recuperoStorageNombre == ""){
-    let nup = prompt("Bienvenido! Cual es tu nombre?") 
-    let nombreUsuario = nup
-    localStorage.setItem('nombre',nombreUsuario)} 
-    document.querySelector(".usuario").innerText = `Bienvenido`+recuperoStorageNombre ;
-*/
 
 let buscador = document.querySelector('.buscador')
 let campoBuscar = document.querySelector('#busqueda')
