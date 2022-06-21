@@ -52,12 +52,14 @@ let section = document.querySelector(`articlesearch`)
     
     buscador.addEventListener('submit', function (e) {
         e.preventDefault()
-        if (campoBuscar.value.length < 3) {
+        if (campoBuscar.value.length == 0 ) {
+            alert("No puedes enviar el formulario vacio!")
+        } else if (campoBuscar.value.length < 3 ) {
             alert("El termino buscado debe tener mas de 3 letras")
         } else {
             this.submit();
         }
-    })
+    });
 
     let urlArtistas = `https://api.allorigins.win/raw?url=https://api.deezer.com/search/artist?q=${valor}`
     fetch(urlArtistas)

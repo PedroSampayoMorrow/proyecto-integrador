@@ -27,7 +27,7 @@ fetch(endpoint)
 })
 .catch(function (error) {
     console.log(error);
-})
+});
 
 fetch(endpoint2)
 .then(function (response) {
@@ -43,3 +43,18 @@ fetch(endpoint2)
 .catch(function (error) {
     console.log(error);
 })
+let buscador = document.querySelector('.buscador')
+let campoBuscar = document.querySelector('#busqueda')
+
+buscador.addEventListener('submit', function (e) {
+    e.preventDefault()
+    if (campoBuscar.value.length == 0 ) {
+        alert("No puedes enviar el formulario vacio!")
+    } else if (campoBuscar.value.length < 3 ) {
+        alert("El termino buscado debe tener mas de 3 letras")
+    } else {
+        this.submit();
+    }
+});
+
+
